@@ -6,7 +6,16 @@
     <description>Recent content in Posts on Huệ Dũng</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved.</copyright>
-    <lastBuildDate>Tue, 02 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://dung.men/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 18 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://dung.men/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sửa lỗi mạng cơ bản</title>
+      <link>https://dung.men/fix-network/</link>
+      <pubDate>Thu, 18 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://dung.men/fix-network/</guid>
+      <description>&lt;p&gt;Sửa lỗi internet trên máy tính&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>Firebase của Google</title>
       <link>https://dung.men/firebase/</link>
