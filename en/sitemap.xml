@@ -66,7 +66,7 @@
   
   <url>
     <loc>https://dung.men/</loc>
-    <lastmod>2021-02-18T00:00:00+00:00</lastmod>
+    <lastmod>2021-02-19T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
@@ -76,6 +76,56 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://dung.men/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://dung.men/tags/b%C3%ACnh-an/</loc>
+    <lastmod>2021-02-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dung.men/chuAn/</loc>
+    <lastmod>2021-02-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dung.men/tags/nghi%E1%BB%81n-ng%E1%BA%ABm/</loc>
+    <lastmod>2021-02-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dung.men/tags/ph%E1%BA%ADt-gi%C3%A1o/</loc>
+    <lastmod>2021-02-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dung.men/post/</loc>
+    <lastmod>2021-02-19T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://dung.men/pt/post/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://dung.men/post/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://dung.men/tags/</loc>
+    <lastmod>2021-02-19T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://dung.men/pt/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://dung.men/tags/"
                 />
   </url>
   
@@ -90,38 +140,8 @@
   </url>
   
   <url>
-    <loc>https://dung.men/post/</loc>
-    <lastmod>2021-02-18T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="https://dung.men/pt/post/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://dung.men/post/"
-                />
-  </url>
-  
-  <url>
     <loc>https://dung.men/fix-network/</loc>
     <lastmod>2021-02-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://dung.men/tags/</loc>
-    <lastmod>2021-02-18T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="https://dung.men/pt/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://dung.men/tags/"
-                />
   </url>
   
   <url>
