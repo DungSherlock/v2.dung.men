@@ -33,12 +33,12 @@
 
     
     
-    <link rel="preload" href="https://cdn.jsdelivr.net/gh/DungSherlock/dung.men@20210224230221/css/styles.css" integrity = "" as="style" crossorigin="anonymous">
-    <link rel="preload" href="https://cdn.jsdelivr.net/gh/DungSherlock/dung.men@20210224230221/js/bundle.min.a3864e68c6efa3fec69819d5ba755da967ed33b00afaaeccfd8d54d9fe7bca0e409d25253595c416b70d84123c2214b59261c0ce281816a87b74036e95dc5891.js" as="script" integrity=
+    <link rel="preload" href="https://cdn.jsdelivr.net/gh/DungSherlock/dung.men@20210226120276/css/styles.css" integrity = "" as="style" crossorigin="anonymous">
+    <link rel="preload" href="https://cdn.jsdelivr.net/gh/DungSherlock/dung.men@20210226120276/js/bundle.min.a3864e68c6efa3fec69819d5ba755da967ed33b00afaaeccfd8d54d9fe7bca0e409d25253595c416b70d84123c2214b59261c0ce281816a87b74036e95dc5891.js" as="script" integrity=
     "sha512-o4ZOaMbvo/7GmBnVunVdqWftM7AK&#43;q7M/Y1U2f57yg5AnSUlNZXEFrcNhBI8IhS1kmHAzigYFqh7dANuldxYkQ==" crossorigin="anonymous">
 
     
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/DungSherlock/dung.men@20210224230221/css/styles.css" integrity="" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/DungSherlock/dung.men@20210226120276/css/styles.css" integrity="" crossorigin="anonymous">
     
   </head>
   
@@ -114,7 +114,7 @@
 </svg>
   </a>
     
-  <a href="https://cdn.jsdelivr.net/gh/DungSherlock/dung.men@20210224230221/index.xml">
+  <a href="https://cdn.jsdelivr.net/gh/DungSherlock/dung.men@20210226120276/index.xml">
     <svg class="icon">
   <use xlink:href="#rss"></use>
 </svg>
@@ -192,8 +192,18 @@
 <li>Tạo link rút gọn
 Thay link hiển thị của post là: <code>md cclk.tk/post/bai-viet</code> bằng <code class="language-md">cclk.tk/bai-viet</code></li>
 </ul>
-<div class="highlight"><pre class="chroma"><code class="language-md" data-lang="md"><span class="ln">1</span>    [permalinks]
-<span class="ln">2</span>    post: &#39;/:filename&#39;
+<div class="highlight"><pre class="chroma"><code class="language-md" data-lang="md"><span class="ln"> 1</span>    disableKinds = [&#34;taxonomyTerm&#34;]
+<span class="ln"> 2</span>    contentDir = &#34;../../content-zdoc&#34;
+<span class="ln"> 3</span>    themesDir = &#34;../&#34;
+<span class="ln"> 4</span>    staticDir = &#34;../../static&#34;
+<span class="ln"> 5</span>    publishDir = &#34;../../public&#34;
+<span class="ln"> 6</span>    [permalinks]
+<span class="ln"> 7</span>      post = &#34;/:slug&#34;
+<span class="ln"> 8</span>      tags = &#34;/docs/t2/:slug&#34;
+<span class="ln"> 9</span>      categories = &#34;/docs/c2/:slug&#34;
+<span class="ln">10</span>    [sitemap]
+<span class="ln">11</span>      filename = &#34;om-sitemap.xml&#34;
+<span class="ln">12</span>
 </code></pre></div><h2 id="3-cấu-hình-mặc-định-khi-tạo-mới-bài-post">3. Cấu hình mặc định khi tạo mới bài post</h2>
 <p>Bài viết mới được gen thông tin từ file <code class="language-md">themes{tên_theme}\archetypes..</code></p>
 <h2 id="4-lệnh-hugo">4. Lệnh hugo</h2>
@@ -368,7 +378,7 @@ Thay link hiển thị của post là: <code>md cclk.tk/post/bai-viet</code> b�
         initToc();
     });
 </script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/DungSherlock/dung.men@20210224230221/js/bundle.min.a3864e68c6efa3fec69819d5ba755da967ed33b00afaaeccfd8d54d9fe7bca0e409d25253595c416b70d84123c2214b59261c0ce281816a87b74036e95dc5891.js" integrity="sha512-o4ZOaMbvo/7GmBnVunVdqWftM7AK&#43;q7M/Y1U2f57yg5AnSUlNZXEFrcNhBI8IhS1kmHAzigYFqh7dANuldxYkQ==" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/DungSherlock/dung.men@20210226120276/js/bundle.min.a3864e68c6efa3fec69819d5ba755da967ed33b00afaaeccfd8d54d9fe7bca0e409d25253595c416b70d84123c2214b59261c0ce281816a87b74036e95dc5891.js" integrity="sha512-o4ZOaMbvo/7GmBnVunVdqWftM7AK&#43;q7M/Y1U2f57yg5AnSUlNZXEFrcNhBI8IhS1kmHAzigYFqh7dANuldxYkQ==" crossorigin="anonymous"></script>
     
   </body>
 </html>
