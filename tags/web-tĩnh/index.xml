@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Web tĩnh on Huệ Dũng</title>
+    <link>https://dung.men/tags/web-t%C4%A9nh/</link>
+    <description>Recent content in Web tĩnh on Huệ Dũng</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved.</copyright>
+    <lastBuildDate>Tue, 02 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://dung.men/tags/web-t%C4%A9nh/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Firebase của Google</title>
+      <link>https://dung.men/firebase/</link>
+      <pubDate>Tue, 02 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://dung.men/firebase/</guid>
+      <description>&lt;p&gt;Cách cấu hình và deploy web tĩnh lên firebase&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chuyển hướng từ htaccess</title>
+      <link>https://dung.men/htaccess/</link>
+      <pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://dung.men/htaccess/</guid>
+      <description>&lt;p&gt;Post này chứa một số mẹo và code chuyển hướng bằng file &lt;code&gt;.htaccess&lt;/code&gt; trên hosting&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Lưu trữ thông tin DNS</title>
+      <link>https://dung.men/dns/</link>
+      <pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://dung.men/dns/</guid>
+      <description>&lt;p&gt;Lưu trữ thông tin cấu hình DNS một số dịch vụ&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
