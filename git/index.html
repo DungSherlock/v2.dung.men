@@ -33,12 +33,12 @@
 
     
     
-    <link rel="preload" href="https://cdn.jsdelivr.net/gh/DungSherlock/dung.men@20210228190244/css/styles.css" integrity = "" as="style" crossorigin="anonymous">
-    <link rel="preload" href="https://cdn.jsdelivr.net/gh/DungSherlock/dung.men@20210228190244/js/bundle.min.a3864e68c6efa3fec69819d5ba755da967ed33b00afaaeccfd8d54d9fe7bca0e409d25253595c416b70d84123c2214b59261c0ce281816a87b74036e95dc5891.js" as="script" integrity=
+    <link rel="preload" href="https://cdn.jsdelivr.net/gh/DungSherlock/dung.men@20210228190289/css/styles.css" integrity = "" as="style" crossorigin="anonymous">
+    <link rel="preload" href="https://cdn.jsdelivr.net/gh/DungSherlock/dung.men@20210228190289/js/bundle.min.a3864e68c6efa3fec69819d5ba755da967ed33b00afaaeccfd8d54d9fe7bca0e409d25253595c416b70d84123c2214b59261c0ce281816a87b74036e95dc5891.js" as="script" integrity=
     "sha512-o4ZOaMbvo/7GmBnVunVdqWftM7AK&#43;q7M/Y1U2f57yg5AnSUlNZXEFrcNhBI8IhS1kmHAzigYFqh7dANuldxYkQ==" crossorigin="anonymous">
 
     
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/DungSherlock/dung.men@20210228190244/css/styles.css" integrity="" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/DungSherlock/dung.men@20210228190289/css/styles.css" integrity="" crossorigin="anonymous">
     
   </head>
   
@@ -114,7 +114,7 @@
 </svg>
   </a>
     
-  <a href="https://dung.men/index.xml">
+  <a href="https://cdn.jsdelivr.net/gh/DungSherlock/dung.men@20210228190289/index.xml">
     <svg class="icon">
   <use xlink:href="#rss"></use>
 </svg>
@@ -220,37 +220,37 @@
 <span class="ln">23</span>      - name: Find and Replace css
 <span class="ln">24</span>        uses: jacobtomlinson/gha-find-replace@0.1.2
 <span class="ln">25</span>        with:
-<span class="ln">26</span>          find: <span class="s2">&#34;cdn.jsdelivr.net/gh/DungSherlock/dung.men@20210228190244/css/&#34;</span>
+<span class="ln">26</span>          find: <span class="s2">&#34;cdn.jsdelivr.net/gh/DungSherlock/dung.men@20210228190289/css/&#34;</span>
 <span class="ln">27</span>          replace: <span class="s2">&#34;cdn.jsdelivr.net/gh/DungSherlock/dung.men@</span><span class="si">${</span><span class="p">{ steps.current-time.outputs.formattedTime </span><span class="si">}</span><span class="s2">}/css/&#34;</span>
 <span class="ln">28</span>          include: <span class="s2">&#34;public/&#34;</span>
 <span class="ln">29</span>      - name: Find and Replace js
 <span class="ln">30</span>        uses: jacobtomlinson/gha-find-replace@0.1.2
 <span class="ln">31</span>        with:
-<span class="ln">32</span>          find: <span class="s2">&#34;cdn.jsdelivr.net/gh/DungSherlock/dung.men@20210228190244/js/&#34;</span>
+<span class="ln">32</span>          find: <span class="s2">&#34;cdn.jsdelivr.net/gh/DungSherlock/dung.men@20210228190289/js/&#34;</span>
 <span class="ln">33</span>          replace: <span class="s2">&#34;cdn.jsdelivr.net/gh/DungSherlock/dung.men@</span><span class="si">${</span><span class="p">{ steps.current-time.outputs.formattedTime </span><span class="si">}</span><span class="s2">}/js/&#34;</span>
 <span class="ln">34</span>          include: <span class="s2">&#34;public/&#34;</span>
 <span class="ln">35</span>      - name: Find and Replace 404.html
 <span class="ln">36</span>        uses: jacobtomlinson/gha-find-replace@0.1.2
 <span class="ln">37</span>        with:
-<span class="ln">38</span>          find: <span class="s2">&#34;dung.men/404.html&#34;</span>
+<span class="ln">38</span>          find: <span class="s2">&#34;cdn.jsdelivr.net/gh/DungSherlock/dung.men@20210228190289/404.html&#34;</span>
 <span class="ln">39</span>          replace: <span class="s2">&#34;cdn.jsdelivr.net/gh/DungSherlock/dung.men@</span><span class="si">${</span><span class="p">{ steps.current-time.outputs.formattedTime </span><span class="si">}</span><span class="s2">}/404.html&#34;</span>
 <span class="ln">40</span>          include: <span class="s2">&#34;public/&#34;</span>
 <span class="ln">41</span>      - name: Find and Replace index.xml
 <span class="ln">42</span>        uses: jacobtomlinson/gha-find-replace@0.1.2
 <span class="ln">43</span>        with:
-<span class="ln">44</span>          find: <span class="s2">&#34;dung.men/index.xml&#34;</span>
+<span class="ln">44</span>          find: <span class="s2">&#34;cdn.jsdelivr.net/gh/DungSherlock/dung.men@20210228190289/index.xml&#34;</span>
 <span class="ln">45</span>          replace: <span class="s2">&#34;cdn.jsdelivr.net/gh/DungSherlock/dung.men@</span><span class="si">${</span><span class="p">{ steps.current-time.outputs.formattedTime </span><span class="si">}</span><span class="s2">}/index.xml&#34;</span>
 <span class="ln">46</span>          include: <span class="s2">&#34;public/&#34;</span>
 <span class="ln">47</span>      - name: Find and Replace manifest.json
 <span class="ln">48</span>        uses: jacobtomlinson/gha-find-replace@0.1.2
 <span class="ln">49</span>        with:
-<span class="ln">50</span>          find: <span class="s2">&#34;dung.men/manifest.json&#34;</span>
+<span class="ln">50</span>          find: <span class="s2">&#34;cdn.jsdelivr.net/gh/DungSherlock/dung.men@20210228190289/manifest.json&#34;</span>
 <span class="ln">51</span>          replace: <span class="s2">&#34;cdn.jsdelivr.net/gh/DungSherlock/dung.men@</span><span class="si">${</span><span class="p">{ steps.current-time.outputs.formattedTime </span><span class="si">}</span><span class="s2">}/manifest.json&#34;</span>
 <span class="ln">52</span>          include: <span class="s2">&#34;public/&#34;</span>
 <span class="ln">53</span>      - name: Find and Replace /om/index.xml
 <span class="ln">54</span>        uses: jacobtomlinson/gha-find-replace@0.1.2
 <span class="ln">55</span>        with:
-<span class="ln">56</span>          find: <span class="s2">&#34;dung.men/om/index.xml&#34;</span>
+<span class="ln">56</span>          find: <span class="s2">&#34;cdn.jsdelivr.net/gh/DungSherlock/dung.men@20210228190289/om/index.xml&#34;</span>
 <span class="ln">57</span>          replace: <span class="s2">&#34;cdn.jsdelivr.net/gh/DungSherlock/dung.men@</span><span class="si">${</span><span class="p">{ steps.current-time.outputs.formattedTime </span><span class="si">}</span><span class="s2">}/om/index.xml&#34;</span>
 <span class="ln">58</span>          include: <span class="s2">&#34;public/&#34;</span>
 <span class="ln">59</span>      - name: Deploy
@@ -373,7 +373,7 @@
         initToc();
     });
 </script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/DungSherlock/dung.men@20210228190244/js/bundle.min.a3864e68c6efa3fec69819d5ba755da967ed33b00afaaeccfd8d54d9fe7bca0e409d25253595c416b70d84123c2214b59261c0ce281816a87b74036e95dc5891.js" integrity="sha512-o4ZOaMbvo/7GmBnVunVdqWftM7AK&#43;q7M/Y1U2f57yg5AnSUlNZXEFrcNhBI8IhS1kmHAzigYFqh7dANuldxYkQ==" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/DungSherlock/dung.men@20210228190289/js/bundle.min.a3864e68c6efa3fec69819d5ba755da967ed33b00afaaeccfd8d54d9fe7bca0e409d25253595c416b70d84123c2214b59261c0ce281816a87b74036e95dc5891.js" integrity="sha512-o4ZOaMbvo/7GmBnVunVdqWftM7AK&#43;q7M/Y1U2f57yg5AnSUlNZXEFrcNhBI8IhS1kmHAzigYFqh7dANuldxYkQ==" crossorigin="anonymous"></script>
     
   </body>
 </html>
