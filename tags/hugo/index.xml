@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hugo on Huệ Dũng</title>
-    <link>https://dung.men/tags/hugo/</link>
+    <link>https://v2.dung.men/tags/hugo/</link>
     <description>Recent content in Hugo on Huệ Dũng</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved.</copyright>
-    <lastBuildDate>Wed, 11 Dec 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://dung.men/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 11 Dec 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://v2.dung.men/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cấu hình hugo</title>
-      <link>https://dung.men/hugo/</link>
+      <link>https://v2.dung.men/hugo/</link>
       <pubDate>Wed, 11 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://dung.men/hugo/</guid>
+      <guid>https://v2.dung.men/hugo/</guid>
       <description>&lt;p&gt;Một số lệnh cấu hình cơ bản trong hugo&lt;/p&gt;</description>
     </item>
     
